@@ -41,3 +41,27 @@ navToggle.addEventListener("click",
 		}
 	}
 );
+
+
+//home page//
+window.addEventListener('load',function(){
+	var welcome = document.querySelector('.greet'),
+		subtext = document.querySelector('.subTexts'),
+		follow  = document.querySelector('.followUs'),
+		follow2  = document.querySelector('.followUs2'),
+		follow3  = document.querySelector('.followUs3'),
+		delay = 500; 
+	
+	
+	setTimeout(function(){welcome.style.right='0';},delay);
+	setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
+	setTimeout(function(){subtext.style.bottom = '-100%';},delay*4.5);
+	setTimeout(function(){follow.style.bottom='0%';},delay*6);
+	setTimeout(function(){follow2.style.bottom='0%';},delay*6);
+	setTimeout(function(){follow3.style.top='0%';},delay*6);
+	 
+  });
+	
+	
+  
+  

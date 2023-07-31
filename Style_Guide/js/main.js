@@ -55,13 +55,12 @@ window.addEventListener('load',function(){
 	
 	setTimeout(function(){welcome.style.right='0';},delay);
 	setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
-	setTimeout(function(){subtext.style.bottom = '-100%';},delay*4.5);
-	setTimeout(function(){follow.style.bottom='0%';},delay*6);
-	setTimeout(function(){follow2.style.bottom='0%';},delay*6);
-	setTimeout(function(){follow3.style.top='0%';},delay*6);
+	setTimeout(function(){subtext.style.bottom = '-100%';},delay*5);
+	setTimeout(function(){follow.style.bottom='0%';},delay*6.5);
+	setTimeout(function(){follow2.style.bottom='0%';},delay*6.5);
+	setTimeout(function(){follow3.style.top='0%';},delay*7);
 	 
   });
-	
 	
   
   

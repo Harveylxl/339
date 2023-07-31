@@ -1,9 +1,21 @@
+@media (min-width:600px){
+  .products .box-container .box{
+    width: 100%;
+    flex: 1 1 20rem;
+    border-radius: 0.5rem;
+    border:0.1rem solid #FF9954;
+  }
 
+  .submit-button {
+    font-size: 1.25rem;
+    margin-top: 10%;
+  }
+}
 
-@media (max-width:1023px){
+@media (max-width:600px){
 
   .box-container h3{
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .box-container p{
@@ -15,37 +27,19 @@
 
 }
 
+.flex_container{
+  flex-wrap: wrap;
+}
 
 }
 
-@media (max-width:600px){
-  footer{
-    font-size: 1.2rem;
-    flex-wrap: wrap;
-  }
-}
 
-@media (min-width:1024px){
-  .products .box-container .box{
-    width: 100%;
-    flex: 1 1 20rem;
-    border-radius: 0.5rem;
-    border:0.1rem solid rgba(0, 0, 0, 1)
-  }
-
-  .submit-button {
-    font-size: 1.25rem;
-    margin-top: 10%;
-  }
-
-}
 
 header{
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  background: #000;
   position: sticky;
 	top: 2em;
 	left: 0;
@@ -82,12 +76,11 @@ body {
   background-color: #000;
 }
 
+
 footer{ 
-  flex: 1;
-  background-color: #999;
-  display: flex;
-  flex-direction: row;
+  background-color: #C6AF92;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 footer p{
@@ -97,15 +90,114 @@ footer p{
 }
 
 footer a{
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #FFF;
 }
 
 footer > div {
   width: 100%;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
 }
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+
 
 
 .container{
@@ -169,7 +261,9 @@ nav a:hover::before{
   width: 100%;
 }
 
-
+label{
+  color: #FFF;
+}
 
 h1 {
   font-family: egostalight;
@@ -182,14 +276,14 @@ h2 {
   font-family: egostalight;
 	font-size: 2.25rem;
   color: #C6AF92;
-  margin-top: 0.5em;
+  margin-top: 5%;
 }
 
 h3{
   font-family: egostalight;
 	font-size: 1.75rem;
   color: #C6AF92;
-  margin-top: 0.75em;
+  padding: 2%;
 }
 
 h4{
@@ -201,7 +295,6 @@ h4{
 p {
   font-family: meta;
   font-size: 1rem;
-  margin-top: 0%;
   color: #cccaca;
 }
 
@@ -252,7 +345,7 @@ img {
 }
 
 .submit-button:hover {
-  background-color: #74774E
+  background-color: #FF9954
 }
 
 .reset-button {
@@ -271,7 +364,7 @@ img {
 }
 
 .reset-button:hover {
-  background-color: #74774E
+  background-color: #FF9954;
 }
 
 .radio{
@@ -378,16 +471,17 @@ ol li {
 }
 
 .products .box-container .box{
+  opacity: 0.8;
   width: 100%;
   border-radius: 0.5rem;
   border:0.1rem solid #C6AF92
 }
 
 .products .box-container .box:hover{
-  opacity: 0.8;
+  opacity: 1;
   flex: 1 1 20rem;
   border-radius: 0.5rem;
-  border:0.1rem solid rgba(0, 0, 0, 1)
+  border:0.1rem solid #FF9954
 }
 
 .project_title{
@@ -404,6 +498,7 @@ ol li {
 
 .flex_container{
   display: flex;
+  gap: 1em;
 }
 
 /*
@@ -426,16 +521,14 @@ th:last-child{
 .neon_button a{
     position: relative;
     display: inline-block;
-    padding: 25px 30px;
+    padding: 15px 30px;
     margin: 40px 0;
     color: #FF9954;
     text-decoration: none;
-    text-transform: uppercase;
     transition: 0.5s;
-    letter-spacing: 4px;
     overflow: hidden;
     margin-right: 50px;
-   
+    font-size: 0.75em;
 }
 
 .neon_button a:hover{
@@ -541,8 +634,9 @@ th:last-child{
   width:100%;
   height:20%;
   position:absolute;
-  right: 90%;
+  right: 85%;
   transition:all .5s;
+  color: #FF9954;
 }
 
 /*taglines*/
@@ -569,7 +663,7 @@ th:last-child{
 
 /*Selected_Project*/
 .follow{
-  height: 50em;
+  height: 39em;
   position:relative;
 }
 .followUs{
@@ -601,7 +695,7 @@ th:last-child{
   position:relative;
 }
 .followUs3{
-  width:100%;
+  width:20%;
   height:20%;
   position:absolute;
   top:700px;

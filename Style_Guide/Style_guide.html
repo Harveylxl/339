@@ -6,8 +6,9 @@
   <meta charset="utf-8">
   <title>Harvey Li</title>
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/about.css" rel="stylesheet">
   <link href="css/font.css" rel="stylesheet">
+  <link href="css/Style_guide.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,169 +32,226 @@
     </nav>
   </header>
 
-  <h1>Style Guide</h1>
-  <div class="intro">
-    <div class="text">
-      <h3>Styles are the visual aspects of a UI that give it a distinct look and feel. They can be customized by
-        changing
-        your Material theme.
-      </h3>
+
+
+  <div class="section">
+    <div class="container justify-content-center">
+      <div class="center-content content-width-large">
+        <h1 class="display-heading-2 no-bottom-space">Style Guide</h1>
+      </div>
     </div>
   </div>
-  <br>
-  <header>
+  <div id="colors" class="style-guide-section">
     <div class="container">
-      <nav>
-        <ul>
-          <li><a href="#text_styling">Text Styling</a>
-          <li><a href="#style">Style</a>
-          <li><a href="#interactive_element">Interactive Element</a>
-          <li><a href="#combine_element">Combine Element</a>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <br>
-  <h2 id="text_styling">Typography</h2>
-  <div class="typography">
-    <div class="grid-item">
-      <h1>Heading One</h1>
-      <p>48px / Egosta Light</p>
-    </div>
-
-    <div class="grid-item">
-      <h2>Heading Two</h2>
-      <p>32px / Egosta Light</p>
-    </div>
-
-    <div class="grid-item">
-      <h3>Heading Three</h3>
-      <p>24px / Egosta Light</p>
-    </div>
-
-    <div class="grid-item">
-      <p>Body</p>
-      <p>16px / FF Meta Normal</p>
-    </div>
-
-    <p>This is a paragraph to display the typography.This is a paragraph to display the typography.This is a paragraph
-      to display the typography.This is a paragraph to display the typography.This is a paragraph to display the
-      typography.</p>
-    <br>
-    <ol>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-    </ol>
-  </div>
-
-  <h2 id="style">Colour Palettes</h2>
-  <div class="grid-container">
-    <div class="grid-item" style="background-color: #D9E4EA">#D9E4EA <br><br>Main Colour / Background Colour</div>
-    <div class="grid-item" style="background-color: #C6AF92;">#C6AF92 <br><br>Highlighted Content / Heading Colour
-    </div>
-    <div class="grid-item" style="background-color: #999;">#999999 <br><br>Supplementary Content / Text Colour</div>
-    <div class="grid-item" style="background-color: #000;">#000000 <br><br>Hover</div>
-    <div class="grid-item" style="background-color: #FFF;">#FFFFFF <br><br>Text Colour</div>
-  </div>
-
-  <h2 id="interactive_element">Submit and reset button</h2>
-  <button class="submit-button">Submit</button>
-  <button class="reset-button">Reset</button>
-
-
-  <h2>Text Input</h2>
-  <div class="text_input">
-    <div class="input-field">
-      <label for="input-field">Enter text</label>
-      <input type="text">
-    </div>
-  </div>
-
-  <h2>Radio Button</h2>
-  <div class="radio_button">
-    <label class="radio">
-      <input type="radio" value="navy blue" name="color">
-      <p>Navy Blue</p>
-      <span></span>
-    </label>
-    <label class="radio">
-      <input type="radio" value="Olive Green" name="color">
-      <p>Olive Green</p>
-      <span></span>
-    </label>
-  </div>
-
-  <h2>Image as a Link</h2>
-  <div class="image_link">
-    <a href="https://example.com">
-      <img src="img/p1.png" alt="project 1">
-    </a>
-  </div>
-  </section>
-
-  <h2 id="combine_element">Navigation</h2>
-  <header>
-    <div class="container">
-      <nav>
-        <ul>
-          <li><a href="Style_guide.html">Style Guide</a>
-          <li><a href="Products.html">Products</a>
-          <li><a href="Cart.html">Shopping Cart</a>
-          <li><a href="Checkout.html">Checkout</a>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="products" id="products">
-    <h2 class="heading"> Projects </h2>
-    <div class="box-container">
-      <div class="box">
-        <div class="image">
-          <img src="img/p1.png" alt="Project 1">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Colors</h4>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h3>Community Exhibition</h3>
-          <p>Provide a remarkable platform to encourage local artists to create artworks and visitors to appreciate
-            the exquisite works of local artists </p>
+        <div class="style-guide-content">
+          <div class="style-guide-row">
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-primary-1"></div>
+              <h5>Primary 1</h5>
+            </div>
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-primary-2"></div>
+              <h5>Primary 2</h5>
+            </div>
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-primary-3"></div>
+              <h5>Primary 3</h5>
+            </div>
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-primary-4"></div>
+              <h5>Primary 4</h5>
+            </div>
+          </div>
+          <div class="style-guide-row">
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-black"></div>
+              <h5>Black</h5>
+            </div>
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-gray"></div>
+              <h5>Gray</h5>
+            </div>
+            <div class="style-guide-content-item">
+              <div class="panel style-guide-color-swatch bg-white"></div>
+              <h5>White</h5>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="box">
-        <div class="image">
-          <img src="img/p2.png" alt="Product 2">
-        </div>
-        <div class="content">
-          <h3>One Iota</h3>
-          <p> Helped golfers track their key performance data while on course quickly and effectively </p>
-        </div>
-      </div>
-
     </div>
-  </section>
-
+  </div>
   
+  <div class="section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Typography</h4>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content">
+          <h1>Heading one</h1>
+          <p>48px / Egosta Light</p>
 
+          <h2>Heading two</h2>
+          <p>36px / Egosta Light</p>   
 
-    <script src="js/main.js"></script>
+          <h3>Heading three</h3>
+          <p>28px / Egosta Light</p> 
 
-    <section>
-      <h2>References</h2>
-      <p>Miller, H. https://images.hermanmiller.group/m/4ad8630e844331af/W-HM_2197149
-        _100087299_walnut_white_f.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
-      </p>
-      <p>Miller, H.
-        https://images.hermanmiller.group/m/d7b45b0778a6f30c/W-HM_2516579_100148454_light_ash_vendor_f.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
-      </p>
-      <p>Miller, H.
-        https://images.hermanmiller.group/m/568eb561dfe7e4db/W-HAY_2528684_100206128_khaki_green_a.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
-      </p>
-      <p>dcode https://www.youtube.com/watch?v=5K7JefKDa4s&t=200s</p>
-      <p>Easy Tutorials https://www.youtube.com/watch?v=oXrlgOEiy6o&t=2s</p>
-      <p>Web CodePro https://www.youtube.com/watch?v=lN9B4uvqVBU</p>
-      <br>
-    </section>
+          <h4>Heading four</h4>
+          <p>20px / Meta</p> 
+
+          <h5>Heading five</h5>
+          <p>16px / Meta</p> 
+
+          <p>Body <br>  16px / Meta</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Icons</h4>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content"><img
+            src="img/facebook-logo-2019.svg"
+            alt="" class="style-guide-content-item" />
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section top-section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Buttons</h4>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content">
+          <div class="row row-wrap">
+            <div class="neon_button">
+              <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                View More
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Text Inputs</h4>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content">
+          <div class="w-form">
+            <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="grid-thirds"><input type="text"
+                class="form-input form-input-small w-input" maxlength="256" name="Small-Input-1"
+                data-name="Small Input 1" placeholder="Enter your email" id="Small-Input" /></form>
+          </div>
+          <div class="w-form">
+            <form id="email-form-3" name="email-form-3" data-name="Email Form 3" class="grid-thirds"><textarea
+                placeholder="Leave your message" maxlength="5000" id="Small-Textarea" name="Small-Textarea-1"
+                data-name="Small Textarea 1" class="form-input textarea-small w-input"></textarea></form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Image as a link</h4>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content">
+          <div class="image_link">
+            <a href="Community_Exhibition.html">
+              <img src="img/p1.png" alt="project 1">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="style-guide-container">
+        <div class="panel">
+          <div class="panel-body">
+            <div>
+              <h4 class="heading">Logo</h4>
+              <div>website logo</div>
+            </div>
+          </div>
+        </div>
+        <div class="style-guide-content">
+          <div class="row">
+            <div class="style-guide-content-item"><img
+                src="img/logo.png"
+                alt="logo of the website"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>References</h2>
+    <p>Miller, H. https://images.hermanmiller.group/m/4ad8630e844331af/W-HM_2197149
+      _100087299_walnut_white_f.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
+    </p>
+    <p>Miller, H.
+      https://images.hermanmiller.group/m/d7b45b0778a6f30c/W-HM_2516579_100148454_light_ash_vendor_f.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
+    </p>
+    <p>Miller, H.
+      https://images.hermanmiller.group/m/568eb561dfe7e4db/W-HAY_2528684_100206128_khaki_green_a.png?trim=auto&trim-sd=1&blend-mode=darken&blend=fafafa&bg=fafafa&auto=format&w=1200&q=68&h=1000
+    </p>
+    <p>dcode https://www.youtube.com/watch?v=5K7JefKDa4s&t=200s</p>
+    <p>Easy Tutorials https://www.youtube.com/watch?v=oXrlgOEiy6o&t=2s</p>
+    <p>Web CodePro https://www.youtube.com/watch?v=lN9B4uvqVBU</p>
+    <br>
+  </section>
+
+  <script src="js/main.js"></script>
 </body>
 
 

@@ -7,13 +7,12 @@
 .neon_button a{
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
-    margin: 40px 0;
+    padding: 10px 20px;
+    margin: 1em 0;
     color: #FF7A00;
     text-decoration: none;
     transition: 0.5s;
     overflow: hidden;
-    margin-right: 50px;
     font-size: 0.75em;
 }
 
@@ -55,7 +54,7 @@
     height: 100%;
     background: linear-gradient(180deg,transparent,#FF7A00);
     animation: animate2 3s linear infinite;
-    animation-delay: 0.25s;
+    animation-delay: 0.75s;
 }
 @keyframes animate2{
     0%{
@@ -72,7 +71,7 @@
     height: 2px;
     background: linear-gradient(270deg,transparent,#FF7A00);
     animation: animate3 3s linear infinite;
-    animation-delay: 0.50s;
+    animation-delay: 1.5s;
 }
 @keyframes animate3{
     0%{
@@ -91,7 +90,7 @@
     height: 100%;
     background: linear-gradient(360deg,transparent,#FF7A00);
     animation: animate4 3s linear infinite;
-    animation-delay: 0.75s;
+    animation-delay: 2.25s;
 }
 @keyframes animate4{
     0%{
@@ -150,12 +149,12 @@
 
 /*Selected_Project*/
 .follow{
-  height: 39em;
+
+  height: 10em;
   position:relative;
 }
 .followUs{
-  width:40%;
-  height: 100%;
+  width:110%;
   position:absolute;
   right: 70%;
   bottom:100%;

@@ -274,40 +274,40 @@ label{
 
 h1 {
   font-family: egostalight;
-	font-size: 3rem;
+	font-size: 3.25rem;
   color: #FF7A00;
 }
 
 h2 {
   font-family: egostalight;
-	font-size: 2.25rem;
+	font-size: 2.5rem;
   color: #C6AF92;
   margin-top: 5%;
 }
 
 h3{
   font-family: egostalight;
-	font-size: 1.75rem;
+	font-size: 2rem;
   color: #FF7A00;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 h4{
-  font-family: meta;
-	font-size: 1.25rem;
+  font-family: egostalight;
+	font-size: 1.75rem;
   color: #C6AF92;
 }
 
 h5{
   font-family: meta;
-	font-size: 1rem;
+	font-size: 1.5rem;
   color: #C6AF92;
 }
 
 p {
   font-family: meta;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #cccaca;
 }
 
@@ -514,4 +514,12 @@ ol li {
 .flex_container{
   display: flex;
   gap: 1em;
+}
+
+.content p{
+  font-size: 1em;
+}
+
+.project{
+  padding: 2em;
 }

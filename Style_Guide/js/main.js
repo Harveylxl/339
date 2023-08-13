@@ -56,10 +56,30 @@ window.addEventListener('load',function(){
 	setTimeout(function(){welcome.style.right='0';},delay);
 	setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
 	setTimeout(function(){subtext.style.bottom = '-100%';},delay*5);
-	setTimeout(function(){follow.style.right='0%';},delay*8.5);
-	setTimeout(function(){follow2.style.bottom='0%';},delay*6.5);
-	setTimeout(function(){follow3.style.top='0%';},delay*7.5);
+	setTimeout(function(){follow.style.right='0%';},delay*7);
+	setTimeout(function(){follow2.style.bottom='0%';},delay*6);
+	setTimeout(function(){follow3.style.top='0%';},delay*6.5);
 	 
+  });
+
+
+  
+
+  document.addEventListener("DOMContentLoaded", function() {
+	const fullscreenContainer = document.querySelector(".fullscreen-container");
+	const clickableImages = document.querySelectorAll(".clickable-image");
+
+	clickableImages.forEach(image => {
+	  image.addEventListener("click", function() {
+		fullscreenContainer.innerHTML = `<img src="${image.src}" alt="Full Screen Image" class="fullscreen-image">`;
+		fullscreenContainer.style.display = "flex";
+	  });
+	});
+
+	fullscreenContainer.addEventListener("click", function() {
+	  fullscreenContainer.style.display = "none";
+	  fullscreenContainer.innerHTML = "";
+	});
   });
 	
 

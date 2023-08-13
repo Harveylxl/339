@@ -10,6 +10,10 @@
     font-size: 1.25rem;
     margin-top: 10%;
   }
+
+  .process_analysis{
+    margin: 1em 7em;
+  }
 }
 
 @media (max-width:600px){
@@ -28,6 +32,15 @@
 }
 
 .flex_container{
+  flex-wrap: wrap;
+}
+
+.project{
+  padding: 1em;
+}
+
+
+.role{
   flex-wrap: wrap;
 }
 
@@ -274,41 +287,46 @@ label{
 
 h1 {
   font-family: egostalight;
-	font-size: 3.25rem;
+	font-size: 3.75rem;
   color: #FF7A00;
+  margin-top: 1.25em;
 }
 
 h2 {
   font-family: egostalight;
-	font-size: 2.5rem;
+	font-size: 2.75rem;
   color: #C6AF92;
-  margin-top: 5%;
+  margin-top: 0.75em;
 }
 
 h3{
   font-family: egostalight;
 	font-size: 2rem;
   color: #FF7A00;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 0.75em;
 }
 
 h4{
   font-family: egostalight;
 	font-size: 1.75rem;
   color: #C6AF92;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
 }
 
 h5{
   font-family: meta;
 	font-size: 1.5rem;
-  color: #C6AF92;
+  color: #b4c19c;
+  margin-top: 0.75em;
 }
 
 p {
   font-family: meta;
   font-size: 1.25rem;
   color: #cccaca;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 
@@ -503,12 +521,11 @@ ol li {
   text-align: center;
 }
 
-.process_analysis{
-  padding: 7em;
-}
+
 
 .image_container{
   gap: 1em;
+  text-align: center;
 }
 
 .flex_container{
@@ -522,4 +539,50 @@ ol li {
 
 .project{
   padding: 2em;
+}
+
+.project p{
+  margin: 1em 0;
+}
+
+.project li{
+  color: #888;
+}
+
+.role{
+  display: flex;
+  gap: 4em;
+  margin: 2em;
+}
+
+.role p{
+  font-size: 1em;
+  color: #888;
+  margin-bottom: 1em;
+}
+
+
+
+.fullscreen-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.clickable-image {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
 }

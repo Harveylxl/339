@@ -120,9 +120,10 @@
   width:100%;
   height:20%;
   position:absolute;
-  right: 85%;
+  right: 95%;
   transition:all .5s;
   color: #FF7A00;
+  margin-top: 0.25em;
 }
 
 /*taglines*/
@@ -131,12 +132,14 @@
   height:20px;
   position:relative;
   overflow:hidden;
+  margin: 0;
 }
 .subText p{
   height:100%;
   color: #b4c19c;
-  line-height:20px;
+  line-height:22px;
   text-align:center;
+  margin: 0;
 }
 .subTexts{
   width:100%;
@@ -149,7 +152,6 @@
 
 /*Selected_Project*/
 .follow{
-
   height: 10em;
   position:relative;
 }

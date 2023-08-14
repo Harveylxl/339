@@ -50,20 +50,20 @@ window.addEventListener('load',function(){
 		follow  = document.querySelector('.followUs'),
 		follow2  = document.querySelector('.followUs2'),
 		follow3  = document.querySelector('.followUs3'),
-		delay = 500; 
+		delay = 1500; 
 	
 	
-	setTimeout(function(){welcome.style.right='0';},delay);
-	setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
-	setTimeout(function(){subtext.style.bottom = '-100%';},delay*5);
-	setTimeout(function(){follow.style.right='0%';},delay*7);
+	setTimeout(function(){welcome.style.right='0';},delay*3.5);
+	setTimeout(function(){subtext.style.bottom = '0%';},delay*4);
+	setTimeout(function(){subtext.style.bottom = '-100%';},delay*5.2);
+	setTimeout(function(){follow.style.right='0%';},delay*6.4);
 	setTimeout(function(){follow2.style.bottom='0%';},delay*6);
-	setTimeout(function(){follow3.style.top='0%';},delay*6.5);
+	setTimeout(function(){follow3.style.top='0%';},delay*6.2);
 	 
   });
 
 
-  
+
 
   document.addEventListener("DOMContentLoaded", function() {
 	const fullscreenContainer = document.querySelector(".fullscreen-container");

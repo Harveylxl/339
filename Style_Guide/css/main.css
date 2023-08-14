@@ -454,7 +454,7 @@ img {
 }
 
 .image_link a:hover img {
-  opacity: 0.8;
+  opacity: 0.9;
   border: 0.2rem solid #C6AF92;
 }
 
@@ -511,7 +511,7 @@ ol li {
 }
 
 .products .box-container .box:hover{
-  opacity: 0.8;
+  opacity: 0.9;
   flex: 1 1 20rem;
   border-radius: 0.5rem;
   border:0.1rem solid #FF7A00
@@ -521,7 +521,9 @@ ol li {
   text-align: center;
 }
 
-
+.project_title img{
+  width: 75%;
+}
 
 .image_container{
   gap: 1em;

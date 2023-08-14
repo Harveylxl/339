@@ -171,7 +171,7 @@
 }
 .followUs2{
   width:40%;
-  height: 100%;
+  height: 110%;
   position:absolute;
   right: 70%;
   bottom:100%;
@@ -198,4 +198,17 @@
   .sub{border:1px solid;}
   .greet{font-size:30px}
   .subTexts p {font-size:16px;}
+}
+
+
+body {
+  margin: 0;
+}
+video {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
 }
